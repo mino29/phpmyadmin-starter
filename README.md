@@ -12,18 +12,17 @@
 
 ### Download php and phpMyAdmin
 
-Route 1:
----
+#### Route 1:
 
-if you use `scoop`, here's what you do:
+If you use `scoop`, here's what you do:
 
 ```powershell
 scoop install php
 scoop bucket add apps "https://github.com/kkzzhizhou/scoop-apps"
 scoop install phpmyadmin
 ```
-Route 2:
----
+
+#### Route 2:
 
 Download [php](https://www.php.net/downloads.php) on the official website.
 Download [phpmyadmin](https://www.phpmyadmin.net/downloads/) on the official website
@@ -95,8 +94,11 @@ function phpmyadmin {
 
 And reload by `. $profile` or close and reopen powershell.
 
-Now you in your powershell you can enter `phpmyadmin start` to start 
-using `phpMyAdmin` and `phpmyadmin stop` (or simply close powershell)
+Now in your powershell you can:
+
+enter `phpmyadmin start` to start using `phpMyAdmin`
+or
+enter `phpmyadmin stop` (or simply close powershell)
 
 ### Overall dark theme
 
@@ -109,5 +111,5 @@ It's use the same color palette as TokyoNight, just perfection.
 Here's how you apply a theme:
 
 1. Download a theme, decompress the .zip file;
-2. copy the all folder of that extracted .zip file to your `../phpmyadmin/themes` folder
-3. launch phpmyadmin and choose your new theme there, it will automatically set it as the new default.
+2. Copy the all folder of that extracted .zip file to your `../phpmyadmin/themes` folder
+3. Launch phpmyadmin and choose your new theme there, it will automatically set it as the new default.
